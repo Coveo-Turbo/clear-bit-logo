@@ -1,7 +1,7 @@
 {
     "name": "@coveops/clear-bit-logo",
     "version": "1.0.0",
-    "description": "",
+    "description": "outputs the corresponding company logo for a given field using Clearbit logo api",
     "main": "dist/index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",

@@ -21,6 +21,13 @@ export interface IClearBitLogoOptions {
     size?: number;
 }
 
+/**
+* The ClearBitLogo component outputs the corresponding company logo for a given field. The component searches for a suitable Company logo
+* from those available using the Clearbit logo API which allows you to quickly lookup company logos using just their domain. If the component finds no suitable logo, it instead
+* outputs a generic one.
+*
+* This component is a result template component (see [Result Templates](https://docs.coveo.com/en/413/)).
+*/
 @lazyComponent
 export class ClearBitLogo extends Component {
     static ID = 'ClearBitLogo';
